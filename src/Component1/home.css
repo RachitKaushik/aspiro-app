@@ -1,0 +1,109 @@
+.home-decore {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -11;
+  }
+  .home-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  @media (max-width: 800px) {
+    .home-top {
+      flex-direction: column;
+    }
+  }
+  .home-top-text {
+    margin-top: 60px;
+    overflow: hidden;
+    /* width: 45%; */
+  }
+  .home-top-text1 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .home-top-text2 {
+    font-family: Volkhov;
+    font-size: 84px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 89px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    margin-top: 30px;
+  }
+  .home-top-text3 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+  }
+  
+  .home-top-text4 i {
+    font-size: 50px;
+    color: brown;
+    margin-left: 20px;
+  }
+  
+  .home-top-text4 button {
+    height: 60px;
+    width: 170px;
+    left: 148px;
+    top: 692px;
+    border-radius: 10px;
+    background-color: rgba(218, 185, 2, 0.986);
+    color: white;
+    border: none;
+  }
+  @media (max-width: 800px) {
+    .home-top-girl img {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+  .category-box {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 80px;
+  }
+  @media (max-width: 800px) {
+    .category-box {
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 800px) {
+    .rectangle img {
+      width: 100%;
+      margin-left: -30px;
+    }
+  }
+  .rectangle {
+    box-shadow: thistle;
+  }
+  .rectange-image {
+    height: 457px;
+    width: 350px;
+    border-radius: 24px;
+    padding: 0 40px;
+  }
+  .rectangle-text {
+    /* height: 50px; */
+    width: 350px;
+    border-radius: 24px;
+  }
+  .color-text{
+    color: cyan;
+  }

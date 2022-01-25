@@ -1,0 +1,54 @@
+.center{
+    text-align: center;
+}
+.col{
+    color: blueviolet;
+}
+.text-weight{
+    font-weight: bold;
+
+}
+.home-sec2{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.home-sec3{
+    
+    padding: 20px;
+    margin: auto;
+}
+.home-sec3 img{
+    width: auto;
+    height: 100px;
+    /* justify-content: center; */
+}
+.home-sec3 h1{
+    width: auto;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+   
+}
+.home-sec3 p{
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+.flight-card{
+    background-color: #ecf1f1;
+    border-radius: 10%;
+    box-shadow: 0px 6px 8px 0px #000000;
+}
+@media (max-width: 800px){
+    .home-sec2{
+        display: flex;
+        flex-direction: column ;
+    }
+    
+}
